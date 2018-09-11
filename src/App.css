@@ -1,0 +1,153 @@
+.header-color {
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.avatar-img {
+    height: 250px;
+    padding-top: 5em;
+}
+
+.banner-text {
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.banner-text h1 {
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+}
+
+.banner-text h2 {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.banner-text hr {
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+}
+
+.banner-text p {
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
+.social-links i {
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+}
+
+.projects-grid {
+    display: flex;
+}
+
+.contact-body {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+
+.contact-grid hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+}
+
+.contact-list {
+    margin-left: 15em;
+}
+
+.contact-list i {
+    font-size: 66px;
+    padding-right: 5rem;
+}
+
+.resume-right-col {
+    background: #27221f;
+    color: white;
+    padding: 2em;
+}
+
+.aboutme-left-side-col {
+    text-align: center;
+    width: 100%;
+    height: 550px;
+}
+
+.aboutme-left-side-col p{
+    text-align: left;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.aboutme-right-side-col {
+    width: 100%;
+    height: 550px;
+}
+
+.skills-col {
+    font-family: 'Oxygen', sans-serif;
+    margin-left: 3em;
+}
+
+.aboutme-grid-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.underconstruction-container {
+    margin: 2em;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+}
