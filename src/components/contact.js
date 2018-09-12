@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import Footer from './footer';
 
 class Contact extends Component {
     render() {
         return(
             <div className="contact-body">
                 <Grid className="contact-grid">
-                    <Cell col={4}>
+                    <Cell col={6}>
                         <h2>Nikolas Lennon</h2>
                         <img 
                           src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png"
@@ -17,7 +18,7 @@ class Contact extends Component {
                             Please use the following methods of contact to the right to reach out to me. I am mostly available by email but will respond to phone calls and texts on a regular basis. 
                         </p>
                     </Cell>
-                    <Cell col={8}>
+                    <Cell col={6}>
                         <h2>Contact Me</h2>
                         <hr />
                         <div className="contact-list">
@@ -43,6 +44,7 @@ class Contact extends Component {
                             </List>   
                         </div>
                     </Cell>
+                    <Footer color="black"/>
                 </Grid>
             </div>
         );

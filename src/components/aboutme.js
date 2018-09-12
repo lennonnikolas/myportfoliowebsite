@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Skills from './skills';
+import Footer from './footer';
 
 class About extends Component {
     render() {
@@ -16,12 +17,12 @@ class About extends Component {
                             alt="avatar"
                         />
                         <hr style={{borderTop: '5px dotted #5692E4', }}/>
-                        <p>I have a passion in Web Development and Game Development and CyberSecurity. I am married to my longtime
-                            best friend, have the cutest Mini Australian Shepherd (Winston) and couldn't be happier. I create elegant professional websites using best practice accessibility. 
+                        <p>I have a passion in Web Development and Game Development and CyberSecurity. I currently reside in Niceville, Florida and I am engaged to my longtime,
+                            insanely beautiful best friend and live with an extremely cute Mini Australian Shepherd (Winston). I couldn't be happier! I create elegant professional websites using best practice accessibility. 
                             I enjoy turning complex problems into simple, beautiful and intuitive interface designs.
                         </p>
                         <p>I am always interested in anything technology related and always working on a project to keep my knowledge expanding in different
-                        languages and libraries. 
+                        languages and libraries.  
                         </p>
                         <p>
                             Visit my Resume page for a high level overview of my current experience or contact me for my latest Resume! 
@@ -56,6 +57,9 @@ class About extends Component {
                             />
                         </div>
                     </Cell>
+                    </div>
+                    <div>
+                        <Footer color="black"/>
                     </div>
                 </Grid>
             </div>

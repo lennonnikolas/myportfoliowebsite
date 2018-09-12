@@ -10,7 +10,7 @@ class Skills extends Component {
                         <p>{skill}</p>
                     </Cell>
                     <Cell col={8}>
-                        <ProgressBar progress={progress} />
+                        <ProgressBar progress={progress} /> {progress}%
                     </Cell>
                 </Grid>
             </div>

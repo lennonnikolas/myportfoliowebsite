@@ -37,8 +37,8 @@ class LandingPage extends Component {
                             </div>
                         </div>
                     </Cell>
+                    <Footer color="white" />
                 </Grid>
-                <Footer />
             </div>
         );
     }

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell } from 'react-mdl';
 //import ProjectCard from './ProjectCards/projectCards';
 import UnderConstruction from './UnderConstruction/UnderConstruction';
+import Footer from './footer';
 
 class Projects extends Component {
     constructor(props) {
@@ -135,6 +136,7 @@ class Projects extends Component {
                                 {this.toggleCategories()}
                             </div>
                         </Cell>
+                        <Footer color="black"/>
                     </Grid>
             </div>
         );

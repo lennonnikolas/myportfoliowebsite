@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import Footer from './footer';
 
 class Resume extends Component {
     render() {
@@ -116,6 +117,7 @@ class Resume extends Component {
                             progress={50}
                         />
                     </Cell>
+                    <Footer color="black"/>
                 </Grid>
             </div>
         );
