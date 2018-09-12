@@ -5,7 +5,7 @@ import Footer from './footer';
 class LandingPage extends Component {
     render() {
         return(
-            <div style={{width: '100%', margin: 'auto'}}>
+            <div className="background">
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img
@@ -37,7 +37,7 @@ class LandingPage extends Component {
                             </div>
                         </div>
                     </Cell>
-                    <Footer color="white" />
+                <Footer color="white"/>
                 </Grid>
             </div>
         );
