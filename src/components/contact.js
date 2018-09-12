@@ -5,7 +5,7 @@ import Footer from './footer';
 class Contact extends Component {
     render() {
         return(
-            <div className="contact-body">
+            <div>
                 <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Nikolas Lennon</h2>
@@ -22,25 +22,29 @@ class Contact extends Component {
                         <h2>Contact Me</h2>
                         <hr />
                         <div className="contact-list">
-                            <List>
+                            <List >
+                            <div>
                             <ListItem>
                                 <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-phone-square" aria-hidden="true" />
-                                    (850) 582-0468
+                                    <h4>(850) 582-0468</h4>
                                 </ListItemContent>
                             </ListItem>
+                            </div>
+                            <div>
                             <ListItem>
                                 <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-envelope-square" aria-hidden="true" />
-                                    lennon.nikolas@gmail.com
-                                </ListItemContent>
+                                    <h4>lennon.nikolas@gmail.com</h4>                                </ListItemContent>
                             </ListItem>
+                            </div>
+                            <div>
                             <ListItem>
                                 <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-skype" aria-hidden="true" />
-                                    lennon.nikolas
-                                </ListItemContent>
+                                    <h4>lennon.nikolas</h4>                                </ListItemContent>
                             </ListItem>
+                            </div>
                             </List>   
                         </div>
                     </Cell>

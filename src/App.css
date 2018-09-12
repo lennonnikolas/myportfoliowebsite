@@ -105,12 +105,19 @@
 }
 
 .contact-list {
-    margin-left: 15em;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin-left: 10em;
 }
 
 .contact-list i {
     font-size: 66px;
-    padding-right: 5rem;
+}
+
+.contact-list h4 {
+    font-weight: bold;
+    text-align: center;
 }
 
 .resume-right-col {
