@@ -119,10 +119,15 @@
     padding: 2em;
 }
 
+.aboutme-container {
+    display: flex;
+    justify-content: center;
+}
+
 .aboutme-left-side-col {
     text-align: center;
-    width: 100%;
-    height: 550px;
+    padding-top: 6em;
+    padding-left: 2em;
 }
 
 .aboutme-left-side-col p{
@@ -131,19 +136,12 @@
 }
 
 .aboutme-right-side-col {
-    width: 100%;
-    height: 550px;
+    padding-top: 5em;
 }
 
 .skills-col {
     font-family: 'Oxygen', sans-serif;
     margin-left: 3em;
-}
-
-.aboutme-grid-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 4em;
 }
 
 .underconstruction-container {

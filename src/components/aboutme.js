@@ -6,9 +6,8 @@ import Footer from './footer';
 class About extends Component {
     render() {
         return(
-            <div>
-                <Grid>
-                <div className="aboutme-grid-container">
+            <div >
+                <Grid className="aboutme-container">
                     <Cell className="aboutme-left-side-col" col={4}>
                         <h4>Hi there! I'm Nikolas Lennon</h4>
                         <img 
@@ -28,7 +27,7 @@ class About extends Component {
                             Visit my Resume page for a high level overview of my current experience or contact me for my latest Resume! 
                         </p>
                     </Cell>
-                    <Cell className="aboutme-right-side-col" col={6}>
+                    <Cell className="aboutme-right-side-col" col={8}>
                         <div className="skills-col">
                         <h2>My Current Skill Set</h2>
                             <Skills 
@@ -57,11 +56,8 @@ class About extends Component {
                             />
                         </div>
                     </Cell>
-                    </div>
-                    <div>
-                        <Footer color="black"/>
-                    </div>
                 </Grid>
+                <Footer />
             </div>
         );
     }
