@@ -31,7 +31,7 @@ class LandingPage extends Component {
                                 </a>
 
                                 {/* Youtube */}
-                                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-youtube-square" aria-hidden="true" />
                                 </a>
                             </div>
