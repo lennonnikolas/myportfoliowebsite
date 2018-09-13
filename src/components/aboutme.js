@@ -30,10 +30,7 @@ class About extends Component {
                     <Cell className="aboutme-right-side-col" col={8}>
                         <div className="skills-col">
                         <h2>My Current Skill Set</h2>
-                            <Skills 
-                                skill="JavaScript"
-                                progress={100}
-                            />
+                            
                             <Skills 
                                 skill="HTML/CSS"
                                 progress={100}
@@ -41,6 +38,10 @@ class About extends Component {
                             <Skills 
                                 skill="SQL"
                                 progress={100}
+                            />
+                            <Skills 
+                                skill="JavaScript"
+                                progress={80}
                             />
                             <Skills 
                                 skill="C++/C#"
@@ -53,6 +54,10 @@ class About extends Component {
                             <Skills 
                                 skill="React"
                                 progress={50}
+                            />
+                            <Skills 
+                                skill="ASP.NET"
+                                progress={10}
                             />
                         </div>
                     </Cell>

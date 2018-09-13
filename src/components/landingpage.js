@@ -17,7 +17,7 @@ class LandingPage extends Component {
                             <h1>Nikolas Lennon</h1>
                             <h2>Full Stack Web Developer</h2>
                             <hr />
-                            <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | SQL | Git</p>
+                            <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | SQL | ASP.NET | Git</p>
                             <div className="social-links">
 
                                 {/* LinkedIn */}
