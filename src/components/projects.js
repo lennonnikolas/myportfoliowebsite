@@ -72,19 +72,19 @@ class Projects extends Component {
                 <div className="projects-grid">
                     <ProjectCard
                     textColor="black"
-                    project="VueJS" 
+                    project="ASP.NET" 
                     number={1} 
                     cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" 
                     img="https://jshype.com/img/vuejs.png" />
                     <ProjectCard
                     textColor="black" 
-                    project="VueJS" 
+                    project="ASP.NET" 
                     number={2} 
                     cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" 
                     img="https://jshype.com/img/vuejs.png" />
                     <ProjectCard
                     textColor="black" 
-                    project="VueJS" 
+                    project="ASP.NET" 
                     number={3} 
                     cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" 
                     img="https://jshype.com/img/vuejs.png" />
@@ -98,19 +98,45 @@ class Projects extends Component {
                 <div className="projects-grid">
                     <ProjectCard
                     textColor="black" 
-                    project="C#/C++" 
+                    project="C#" 
                     number={1} 
                     cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" 
                     img="https://png.icons8.com/color/1600/c-programming.png" />
                     <ProjectCard
                     textColor="black"  
-                    project="C#/C++" 
+                    project="C#" 
                     number={2} 
                     cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" 
                     img="https://png.icons8.com/color/1600/c-programming.png" />
                     <ProjectCard
                     textColor="black"  
-                    project="C#/C++" 
+                    project="C#" 
+                    number={3} 
+                    cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" 
+                    img="https://png.icons8.com/color/1600/c-programming.png" />
+                </div>
+                */
+            )
+        } else if (this.state.activeTab === 4) {
+            return (
+                <UnderConstruction />
+                /*
+                <div className="projects-grid">
+                    <ProjectCard
+                    textColor="black" 
+                    project="C++" 
+                    number={1} 
+                    cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" 
+                    img="https://png.icons8.com/color/1600/c-programming.png" />
+                    <ProjectCard
+                    textColor="black"  
+                    project="C++" 
+                    number={2} 
+                    cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" 
+                    img="https://png.icons8.com/color/1600/c-programming.png" />
+                    <ProjectCard
+                    textColor="black"  
+                    project="C++" 
                     number={3} 
                     cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" 
                     img="https://png.icons8.com/color/1600/c-programming.png" />
@@ -127,8 +153,9 @@ class Projects extends Component {
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab: tabId})} ripple>
                     <Tab>React</Tab>
                     <Tab>SQL</Tab>
-                    <Tab>VueJs</Tab>
-                    <Tab>C# and C++</Tab>
+                    <Tab>ASP.NET</Tab>
+                    <Tab>C#</Tab>
+                    <Tab>C++</Tab>
                 </Tabs>
                     <Grid>
                         <Cell col={12}>
